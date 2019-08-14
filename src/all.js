@@ -3,9 +3,9 @@ const io = require("socket.io")();
 io.listen(9000);
 
 // Bot configs read in from environment
-const room_id = process.env.HUBOT_GROUPME_ROOM_ID;
-const bot_id = process.env.HUBOT_GROUPME_BOT_ID;
-const token = process.env.HUBOT_GROUPME_TOKEN;
+const room_id = process.env.44548838;
+const bot_id = process.env.7b46a7d4ac99f18c584f9649b5;
+const token = process.env.zTUFLBFDa8q3OwYGnTxHCQlbKX1ao0EZmAGuJek4;
 
 if (!room_id || !bot_id || !token) {
   console.error(
